@@ -36,7 +36,14 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'x64|AnyCPU'">
+    <OutputPath>bin\x64\</OutputPath>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Accusoft.PdfXpress7.Net, Version=7.3.0.69, Culture=neutral, PublicKeyToken=80d669b8b606a2da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Accusoft.PdfXpress7.Net.7.3.69\lib\net20\Accusoft.PdfXpress7.Net.dll</HintPath>
+    </Reference>
     <Reference Include="Accusoft.ScanFixXpress.Net, Version=9.0.0.846, Culture=neutral, PublicKeyToken=80d669b8b606a2da, processorArchitecture=MSIL">
       <HintPath>..\packages\Accusoft.ScanFixXpress.Net.9.0.846\lib\net35\Accusoft.ScanFixXpress.Net.dll</HintPath>
     </Reference>

@@ -12,6 +12,7 @@ using ImageGear.Formats;
 using ImageGear.Formats.PDF;
 using ImageGear.Core;
 using ImageGear.Processing;
+using Accusoft.PdfXpressSdk;
 
 namespace IN_147073
 {
@@ -21,7 +22,12 @@ namespace IN_147073
         static DirectoryInfo input = new DirectoryInfo(@"..\..\..\input\");
         static DirectoryInfo output = new DirectoryInfo(@"..\..\..\output\");
         static DirectoryInfo outputOCR = new DirectoryInfo(@"..\..\..\output\ocr\");
-
+        static string creditCardRegEx = @"\d{3}-?\d{2}-?\d{4}";
+        static string uSPhoneNumerRegEx = @"(\(?\d{3}\)?-?)?\d{3}-?\d{4}";
+        static string ccRegEx = @"(\d{4} ){3}\d{4}";
+        static string oCRDataPath;
+        static string cMapPath;
+        static string fontPath;
         static void Main(string[] args)
         {
             ImGearLicense.SetSolutionName("VeritasTechnologiesLLC");
@@ -64,7 +70,7 @@ namespace IN_147073
 
                         using (FileStream outputStream = new FileStream($"{output}{Path.GetFileNameWithoutExtension(file.FullName)}.bmp", FileMode.Create))
                             ImGearFileFormats.SavePage(imGearPage, outputStream, ImGearSavingFormats.BMP_UNCOMP);
-                        ProcessFiles();    
+                        ProcessFiles();
                         break;
                     default:
                         break;
@@ -101,5 +107,58 @@ namespace IN_147073
             }
         }
 
+
+        private static void ProccessFiles_SmartZone()
+        {
+
+            using (PdfXpress pdf = new PdfXpress())
+            {
+                pdf.Licensing.SetSolutionName("");
+                pdf.Licensing.SetSolutionKey(000000, 000001, 0000002, 0000003);
+                pdf.Licensing.SetOEMLicenseKey("000000");
+                pdf.Initialize(fontPath, cMapPath);
+
+                OpenOptions openOptions = new OpenOptions();
+                using (SmartZoneOCR smrtZoneOCR = new SmartZoneOCR())
+                {
+                    smrtZoneOCR.Licensing.SetSolutionName("");
+                    smrtZoneOCR.Licensing.SetSolutionKey(000000, 000001, 0000002, 0000003);
+                    smrtZoneOCR.Licensing.SetOEMLicenseKey("");
+                    smrtZoneOCR.OCRDataPath = oCRDataPath;
+
+
+                    var pdfdoc = pdf.Documents.Add("fileName");
+                    RenderOptions renderOptions = new RenderOptions();
+                    TextFinderOptions finderOptions = new TextFinderOptions();
+                    ExtractImageOptions extractOptions = new ExtractImageOptions();
+                    var doc = pdf.Documents[pdfdoc];
+
+
+                    renderOptions.ResolutionX = 300;
+                    renderOptions.ResolutionY = 300;
+
+                    for (int pageNumber = 0; pageNumber < pdf.Documents[pdfdoc].PageCount; pageNumber++)
+                    {
+                        using (Bitmap bitmap = pdf.Documents[pdfdoc].RenderPageToBitmap(pageNumber, renderOptions))
+                        {
+
+                            smrtZoneOCR.Reader.CharacterSet = CharacterSet.AllCharacters;
+                            smrtZoneOCR.Reader.CharacterSet.Language = Language.English;
+                            smrtZoneOCR.Reader.Area = new Rectangle(0, 0, bitmap.Width, bitmap.Height);
+                            smrtZoneOCR.Reader.SetRegularExpression(creditCardRegEx);
+                            smrtZoneOCR.Reader.SetRegularExpression(uSPhoneNumerRegEx);
+                            smrtZoneOCR.Reader.SetRegularExpression(ccRegEx);
+
+                            var result = smrtZoneOCR.Reader.AnalyzeField(bitmap);
+
+
+
+                        }
+                    }
+                }
+
+
+            }
+        }
     }
 }
