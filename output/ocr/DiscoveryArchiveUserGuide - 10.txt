@@ -1,0 +1,26 @@
+EB  My Mailbox
+8121 Managed Accounts
+d6 Accounts
+80 Saved Searches
+E 09 Tags & Holds
+EB  Batch Processes
+fInvestigations
+3. Enter your search term in the Search field and click Search.
+P
+[Back to Top]
+Advanced Search
+To conduct an advanced search
+V
+1. Click LZ-l to display the Advanced Search menu.
+Ci Save Search
+- p Search 0
+2. Select the user archives you want to search.
+O Select All to search the archives of all users or Selected to choose users. If you want to choose users, click Add/Remove
+Custodian(s).
+431 Save Search
+- P Search R
+Advanced Search ,* Match All Q Match Any
+LiLI E] Entre Message v Contains -V 1
+3. Enter search terms and designate Advanced Search criteria. You have various options for the part of the message you want to search.
+ Click to add search clauses.
+& You can choose to search for all or any of the search terms entered by selecting Match All or Match Any.

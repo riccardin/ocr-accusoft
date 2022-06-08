@@ -1,0 +1,36 @@
+57 Investigations
+'  E-Discovery
+L r Administration
+ Alerts
+ Dashboard
+ Help
+The Discovery Archive Administrator role is for system administrators that need to configure Discovery Archive or HR personnel that need to
+monitor employee email usage. Given the sensitive nature of the information available to Administrators, we highly recommend they take special
+care to protect their login credentials. In order for Administrators to monitor the email usage of all employees, they must be given permission to
+"Monitor All Accounts" when being assigned the Administrator role. See Assign the Administrator Role for more information.
+O It is possible to restrict Administrator access. Please refer to the Archive Administration User Guide for more information.
+ Administrators can receive email notifications each time a message is flagged in the Alerts area. See Policy Alerts for more information.
+Reviewer Role
+Available Options: Investigations, E-Discovery, Administration (for Preferences Only), and Alerts
+2 Investigations
+4i; E-Discovery
+' i- Administration
+e Alerts
+e Help
+ Reviewers can use the Administration tab to change their own password and personal time zone.
+Reviewers typically monitor other employees' emails for material that does not follow company communication policies. An Administrator or HR
+representative typically reviews the email of Reviewers, so that no employees are exempt from following company communication policies.
+Administrators assign individuals the role of Reviewer in the Administration Console, located outside the Discovery Archive interface. See Assign
+the Reviewer Role for more information.
+ Organizations should take special care in selecting the appropriate employees for the Reviewer role, since Reviewers can see other
+employees' emails. It is also important to ensure that Reviewers do not share their user name and password with anyone.
+Within Discovery Archive, Reviewers can execute two types of searches:
+• Open-ended investigative searches against one or all user archives assigned to them.
+0 Targeted e-discovery searches against one or more archives in the E-Discovery tab.
+Reviewers can perform the following functions:
+• Search for emails that pertain to a Matter
+0 Save and assign searches to other reviewers
+• Export emails and place emails on legal hold
+0 Export emails
+Account Role
+Available Options: Investigations and Administration (for Preferences Only)

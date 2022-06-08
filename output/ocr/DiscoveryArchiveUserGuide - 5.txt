@@ -1,0 +1,24 @@
+Archive Administration «
+' U Archive Overview
+E.A Amounts
+[El.. u.
+u Role Management
+-  Administration Roles
+3. Select a user from the list.
+4. Click LLI in the Role field and select Reviewer.
+5. Select the Monitor All Accounts checkbox to allow the user to monitor all user accounts.
+j Click Add/Remove Monitored Accounts to manually select accounts for this reviewer to monitor.
+ Save  1 *.1 Cancel 
+r'r
+1,11/
+Role Change - bill.williams@enron.com
+Role: Reviewer .
+Privilege:  Monitor All Accounts,
+Accounts To Monitor
+Add/Remove Monitored Accounts
+7. Click Save.
+[Back to Top]
+Browse My Mailbox
+All users, including Administrators, Reviewers, and General Accounts, can view and access their own archived emails in the My Mailbox node of
+the Investigations pane. Users can view all their archived emails in the mailbox, including emails deleted from their inbox.
+ The MyMailbox node is now available in the Investigations tab.

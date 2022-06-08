@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Accusoft.SmartZone.Runtime.Win.7.0.178\build\Accusoft.SmartZone.Runtime.Win.props" Condition="Exists('..\packages\Accusoft.SmartZone.Runtime.Win.7.0.178\build\Accusoft.SmartZone.Runtime.Win.props')" />
+  <Import Project="..\packages\Accusoft.SmartZoneOCR.Net.7.0.178\build\Accusoft.SmartZoneOCR.Net.props" Condition="Exists('..\packages\Accusoft.SmartZoneOCR.Net.7.0.178\build\Accusoft.SmartZoneOCR.Net.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A840678E-9055-4763-B49B-AD6D72055FA0}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>IN_147073</RootNamespace>
+    <AssemblyName>IN-147073</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accusoft.ScanFixXpress.Net, Version=9.0.0.846, Culture=neutral, PublicKeyToken=80d669b8b606a2da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Accusoft.ScanFixXpress.Net.9.0.846\lib\net35\Accusoft.ScanFixXpress.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="Accusoft.SmartZoneOCR.Net, Version=7.0.0.178, Culture=neutral, PublicKeyToken=80d669b8b606a2da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Accusoft.SmartZoneOCR.Net.7.0.178\lib\net35\Accusoft.SmartZoneOCR.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="ImageGear.Art, Version=25.1.1.2145, Culture=neutral, PublicKeyToken=80d669b8b606a2da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Accusoft.ImageGear.PDF.25.1.1\lib\net20\ImageGear.Art.dll</HintPath>
+    </Reference>
+    <Reference Include="ImageGear.Comparison, Version=25.1.1.2145, Culture=neutral, PublicKeyToken=80d669b8b606a2da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Accusoft.ImageGear.PDF.25.1.1\lib\net20\ImageGear.Comparison.dll</HintPath>
+    </Reference>
+    <Reference Include="ImageGear.Core, Version=25.1.1.2145, Culture=neutral, PublicKeyToken=80d669b8b606a2da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Accusoft.ImageGear.Core.25.1.1\lib\net20\ImageGear.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="ImageGear.Evaluation, Version=25.1.1.2145, Culture=neutral, PublicKeyToken=80d669b8b606a2da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Accusoft.ImageGear.Core.25.1.1\lib\net20\ImageGear.Evaluation.dll</HintPath>
+    </Reference>
+    <Reference Include="ImageGear.Formats.Common, Version=25.1.1.2145, Culture=neutral, PublicKeyToken=80d669b8b606a2da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Accusoft.ImageGear.Core.25.1.1\lib\net20\ImageGear.Formats.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="ImageGear.Formats.Pdf, Version=25.1.1.2145, Culture=neutral, PublicKeyToken=80d669b8b606a2da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Accusoft.ImageGear.PDF.25.1.1\lib\net20\ImageGear.Formats.Pdf.dll</HintPath>
+    </Reference>
+    <Reference Include="ImageGear.Formats.SimplifiedMetadata, Version=25.1.1.2145, Culture=neutral, PublicKeyToken=80d669b8b606a2da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Accusoft.ImageGear.Core.25.1.1\lib\net20\ImageGear.Formats.SimplifiedMetadata.dll</HintPath>
+    </Reference>
+    <Reference Include="ImageGear.Formats.Vector, Version=25.1.1.2145, Culture=neutral, PublicKeyToken=80d669b8b606a2da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Accusoft.ImageGear.Vector.25.1.1\lib\net20\ImageGear.Formats.Vector.dll</HintPath>
+    </Reference>
+    <Reference Include="ImageGear.Presentation, Version=25.1.1.2145, Culture=neutral, PublicKeyToken=80d669b8b606a2da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Accusoft.ImageGear.Vector.25.1.1\lib\net20\ImageGear.Presentation.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Accusoft.ImageGear.Core.25.1.1\build\Accusoft.ImageGear.Core.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Accusoft.ImageGear.Core.25.1.1\build\Accusoft.ImageGear.Core.targets'))" />
+    <Error Condition="!Exists('..\packages\Accusoft.ImageGear.Vector.25.1.1\build\Accusoft.ImageGear.Vector.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Accusoft.ImageGear.Vector.25.1.1\build\Accusoft.ImageGear.Vector.targets'))" />
+    <Error Condition="!Exists('..\packages\Accusoft.ImageGear.PDF.25.1.1\build\Accusoft.ImageGear.PDF.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Accusoft.ImageGear.PDF.25.1.1\build\Accusoft.ImageGear.PDF.targets'))" />
+    <Error Condition="!Exists('..\packages\Accusoft.SmartZoneOCR.Net.7.0.178\build\Accusoft.SmartZoneOCR.Net.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Accusoft.SmartZoneOCR.Net.7.0.178\build\Accusoft.SmartZoneOCR.Net.props'))" />
+    <Error Condition="!Exists('..\packages\Accusoft.SmartZoneOCR.Net.7.0.178\build\Accusoft.SmartZoneOCR.Net.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Accusoft.SmartZoneOCR.Net.7.0.178\build\Accusoft.SmartZoneOCR.Net.targets'))" />
+    <Error Condition="!Exists('..\packages\Accusoft.SmartZone.Runtime.Win.7.0.178\build\Accusoft.SmartZone.Runtime.Win.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Accusoft.SmartZone.Runtime.Win.7.0.178\build\Accusoft.SmartZone.Runtime.Win.props'))" />
+    <Error Condition="!Exists('..\packages\Accusoft.SmartZone.Runtime.Win.7.0.178\build\Accusoft.SmartZone.Runtime.Win.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Accusoft.SmartZone.Runtime.Win.7.0.178\build\Accusoft.SmartZone.Runtime.Win.targets'))" />
+  </Target>
+  <Import Project="..\packages\Accusoft.ImageGear.Core.25.1.1\build\Accusoft.ImageGear.Core.targets" Condition="Exists('..\packages\Accusoft.ImageGear.Core.25.1.1\build\Accusoft.ImageGear.Core.targets')" />
+  <Import Project="..\packages\Accusoft.ImageGear.Vector.25.1.1\build\Accusoft.ImageGear.Vector.targets" Condition="Exists('..\packages\Accusoft.ImageGear.Vector.25.1.1\build\Accusoft.ImageGear.Vector.targets')" />
+  <Import Project="..\packages\Accusoft.ImageGear.PDF.25.1.1\build\Accusoft.ImageGear.PDF.targets" Condition="Exists('..\packages\Accusoft.ImageGear.PDF.25.1.1\build\Accusoft.ImageGear.PDF.targets')" />
+  <Import Project="..\packages\Accusoft.SmartZoneOCR.Net.7.0.178\build\Accusoft.SmartZoneOCR.Net.targets" Condition="Exists('..\packages\Accusoft.SmartZoneOCR.Net.7.0.178\build\Accusoft.SmartZoneOCR.Net.targets')" />
+  <Import Project="..\packages\Accusoft.SmartZone.Runtime.Win.7.0.178\build\Accusoft.SmartZone.Runtime.Win.targets" Condition="Exists('..\packages\Accusoft.SmartZone.Runtime.Win.7.0.178\build\Accusoft.SmartZone.Runtime.Win.targets')" />
+</Project>

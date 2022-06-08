@@ -1,0 +1,36 @@
+Exclude Select this option to exclude previously exported emails from the current export.
+Exported A
+¥ This option is Matter-specific. The same email in another Matter may or may not be exported depending if it was
+Emails
+already exported for that Matter.
+ Export Enter a name for the export file.
+Name
+ Export
+Password your computer.
+ Enter an access password for the export file. The password is required to open the export file after it is downloaded to
+Confirm Enter your export password again to confirm.
+Password
+6. Click Export Items.
+[Back to Top]
+About the Administration Tab
+The Administration tab allows your company's administrators to configure settings for your archive and to assign roles. This tab is only available to
+System Administrators or Role Managers that have access to the Archive Administration console.
+Within the Administration Console, your company's administrators can perform the following Discovery Archive tasks:
+0 Specify Reviewers and assign archives to Reviewers
+0 Specify archiving options
+0 View Usage reports and logs
+Please refer to the Archive Administration User Guide for more information.
+[Back to Top]
+Create Policy Alerts
+Alerts are a helpful tool for Administrators and Reviewers, as they help monitor your company's email usage.
+You can create an automatic alert that will send you an email notification each time a user sends or receives an email that meets flagged criteria.
+For example, you can create alerts that flag emails containing profanity in the subject line, message body, or attachment.
+To create an alert
+1. Create a Saved Search.
+2. Select the Alerts tab.
+E ifl Administration
+E .IL Matters
+2 Investigations
+41 E-Discovery
+2 Adminbtration
+e <EED

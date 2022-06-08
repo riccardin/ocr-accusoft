@@ -1,0 +1,29 @@
+ This functionality is only available if enabled for your organization.
+ We recommend you only forward emails during the investigation phase, as forwarding emails changes its metadata and is not an appropriate
+means for collecting files during legal proceedings.
+To forward an email from Discovery Archive
+1. Browse the archive of accounts assigned to you or conduct a search.
+2. Select the emails you want to forward.
+3. Click Forward.
+ Inbox [ Sent ¥ New Mail E Reply E Reply Ail 41.==2' ei Save Search [i3 - + v ® Restore U
+4. Enter the email address for the recipient of the emails.
+& Discovery Archive automatically sends the emails to the recipient as individual emails in the original mail format.
+[Back to Top]
+Tag Emails
+During the review process, reviewers can tag emails for review at a later date or to share certain types of emails with another reviewer.
+For example, if a search returns many emails that contain inappropriate words, the reviewer may need to review the results more closely to
+determine if the context in which the words were used are appropriate according to company policies. The reviewer can tag questionable emails
+and use the tag to retrieve these emails at a later time.
+To tag an email
+1. Browse the archive of accounts assigned to you or conduct a search.
+2. Select the emails you want to tag.
+3. Click -
+4. Select Tag selected emails or choose one of the other options.
+9 --7- ® Restore f
+·Se Tag current page
+- 39 Tag selected emails
+ubject 1 -
+- 1 ¥:· Tag all emails
+F: DTT Mi_-
+5. Enter a name and description for the tag.
+ Select the Legal Hold checkbox if you want to place the emails on legal hold or select a retention tag.

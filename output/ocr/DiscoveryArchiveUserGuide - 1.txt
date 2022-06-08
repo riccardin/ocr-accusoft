@@ -1,0 +1,32 @@
+Discovery
+Sea,ity
+0 -ba dic or *ied comfu
+ass,Aud: ,-I
+forggleassword) Log On
+2. Select a Security option.
+Refer to the following table for more information:
+ This is a public or
+shared computer
+Discovery Archive prompts you for your user name and password each time you access the login screen
+and automatically logs you out after 20 minutes of inactivity.
+Default option selected
+ This is a private
+computer
+Discovery Archive stores your credentials in your browser's local profile cache for 1 year allowing you to
+bypass the login screen after your initial successful login.
+ You can clear this setting by logging out of Discovery Archive.
+3. Enter your user name and password.
+ If you have problems accessing your account, please check with your administrator first. If you continue to have difficulty logging in,
+please contact your Technical Support Staff through your administrator.
+[Back to Top]
+About Discovery Archive Roles
+The three roles available in Discovery Archive include:
+• Administrators
+• Reviewers
+0 Accounts
+Each role has a unique set of permissions and features accessible from the menu options.
+ In addition to these available roles, administrators can also create External Reviewer accounts. External Reviewer accounts allow
+non-Discovery Archive users to review emails within Matters assigned to them. Please see the Archive Administration User Guide for more
+information about creating External Reviewer accounts.
+Administrator Role
+Ava\\able Menu Opions: Investigations, E-Discovery, Administration, Alerts, and Dashboard

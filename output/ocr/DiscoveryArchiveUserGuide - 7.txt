@@ -1,0 +1,30 @@
+Ee CA My Mailbox
+ SF: Tags & Holds
+EBI Batch Prooesses
+CInvestigations
+r j Investigations
+ E-Discovery
+' f- Administration
+ Alerts
+0 Help
+ All the accounts assigned to you display when you select Accounts from the Managed Accounts node.
+EB 1 My Mailbox
+8121 Managed Accounts
+Accounts j
+Saved Searches
+EB Sy: Tags & Holds
+133 I Batch Processes
+FInvestigations
+ You can use the features available from the Managed Accounts node to conduct initial, probative, or ad hoc investigations in an archive,
+outside of the legal discovery workflow. Once you are ready to conduct searches and reviews on a specific subject, you should create a Matter to
+track these searches.
+ Expand the Saved Searches node and select New Search to perform a search across all archives assigned to you.
+8'5 My Mailbox
+8 [23 Managed Accounts
+1 Accounts
+810 Saved Searches
+ »3: Tags & Holds
+133 1 Batch Processes
+investigations
+[Back to Top]
+Search Managed Accounts

@@ -1,0 +1,32 @@
+Role
+1 Last Name
+First Name
+Click LL and select the role for the user.
+Enter the last name or part of the last name for the user.
+Enter the first name or part of the first name for the user.
+[Back to Top]
+Perform Searches
+Recommended Practices for Discovery Archive Search
+Discovery Archive's robust search functionality allows users to quickly and easily search for specific emails, groups of emails, domains, accounts,
+saved searches, or reports. Basic search functionality is available regardless of the tab or menu tree you are working under.
+ Users assigned the Accounts role can perform searches only within their own archives, while Reviewers and Administrators have a wider
+variety of search options.
+Discovery Archive includes Basic Search or Advanced Search. Depending on your administrative privileges and the area of Discovery Archive
+you are searching, you can use these features to search:
+0 A single archive (Accounts in Managed Accounts node)
+• All archives (New Search in Managed Accounts node)
+0 The archives for a subset of users (E-Discovery tab)
+[Back to Top]
+Basic Search
+To conduct a basic search
+1. Expand the Managed Accounts node.
+1MLME!!box--
+€ Invest*lations
+ i©': Tags & Holds
+  Bath Processes
+' j Investigations
+<D E-Discovery
+' 0 Administration
+ Alerts
+ Help
+2. Expand the Saved Searches node and select New Search to perform a search across all archives assigned to you.

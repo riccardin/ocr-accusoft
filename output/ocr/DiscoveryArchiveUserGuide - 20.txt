@@ -1,0 +1,31 @@
+ Restore 1 * 1 Close
+P Search A
+Email
+Address:
+Role: All v
+Last Name :
+First Name:
+3. Click Restore.
+4. Click Close to close the restore window or select additional user accounts if you want to restore the selected email to additional accounts.
+[Back to Top]
+Print Emails
+To print an email
+• Right-click the email you want to print and select Print this message. The message preview pane displays.
+¤' @ ' From
+-0 @11 ® Resbore
+To
+0 1@ aN
+.0.3 Tag
+1 4 Reply
+m @ 10
+m @ 10
+-u--1 ( Reply All
+- - -1 4 Forward
+-
+ You can also click the Print icon from the message preview pane.
+* Previous  * Next ® Restore  + Tag I.5:
+Subject= Mail Archive account(s) created
+Fronr donotreply@archivesuite.com
+[Back to Top]
+Export Emails
+During the review process, reviewers can export emails in EML, NSF, PST, EML with EDRM, MSG with EDRM, and PST with EDRM format.

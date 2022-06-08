@@ -1,0 +1,41 @@
+Discovery Archive User Guide
+Discovery Archive is a fully managed web-based service that allows your company to proactively respond to litigation requests and ensure
+adherence to company communication policies. Designated individuals in your company can use Discovery Archive to search through current and
+legacy emails, permanently store material for litigation purposes, and export materials for review by outside parties.
+The following User Guide provides additional information about Discovery Archive and instructions for using its key features. You can also
+download the Discovery Archive User Guide in PDF format.
+ Collaborative Discovery (accessed from the E-Discovery tab) includes all the Matter Management features in Discovery Archive that allow
+multiple reviewers to interact and collaborate on litigation Matters during the e-discovery process. Please refer to the Collaborative Discovery
+Guide for more information about using these new features of Discovery Archive.
+Contents
+Log in to Discovery Archive
+About Discovery Archive Roles
+Assign the Administrator Role
+Assign the Reviewer Role
+Browse My Mailbox
+About Managed Accounts
+Search Managed Accounts
+Perform Searches
+Basic Search
+Advanced Search
+Search Guidelines
+Search Tips
+Create Saved Search
+Update Saved Search
+About Matter Management
+Forward Emails
+Tag Emails
+Restore Emails
+Print Emails
+Export Emails
+About the Administration Tab
+Create Policy Alerts
+Indexed Attachments
+Log in to Discovery Archive
+When your company signs up for Discovery Archive, you are provided with a username and password. With these credentials, you can log in to
+Discovery Archive and start setting up accounts for individual users.
+1, All Discovery Archive users should exercise caution when accessing their accounts from public computers to maintain the confidentiality of
+company emails, especially individuals assigned to Administrator or Reviewer roles.
+ If your company signed up for Discovery Archive and you have not received your credentials, please contact your administrator.
+To log in to Discovery Archive
+1. Navigate to your Discovery Archive URL.

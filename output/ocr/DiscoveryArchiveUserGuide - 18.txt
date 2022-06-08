@@ -1,0 +1,25 @@
+Add Tag
+X
+Enter Tag name:
+OK
+Comments:
+¤ Legal Hold
+ Select Retention Tag:
+retl
+6. Click OK.
+j Tags appear in the Tags & Holds node of the Archive pane.
+8 t My Mailbox
+EBIE Managed Accounts
+9«Tags&HJds
+ 8 03: Holds 
+f-Investigations
+E .3 Tags
+ € Retenbon
+111 - Batch Processes
+[Back to Top]
+Restore Emails
+You can use the Restore feature in Discovery Archive to send an exact copy of the email back to any user's mailbox. The restoration process only
+takes a few seconds to complete. The restored email appears in the top of the user's Inbox with the date and time you restored the email. You
+can see the original timestamp of the email by opening it in your Outlook or Notes Inbox.
+To restore an email
+1. Right-click on the email you want to restore and select Restore.

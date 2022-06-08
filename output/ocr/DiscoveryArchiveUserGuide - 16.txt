@@ -1,0 +1,47 @@
+On-going  Select to make a Standard Search an On-going Search or clear to make an On-going Search a Standard Search.
+ New emails that meet the specified search criteria continue to be added to on-going searches after they are created. If
+you do not select the On-going checkbox, Discovery Archive saves the search as a Standard Search and will not update
+the search automatically to include new emails that meet the specified search criteria.
+Tag
+Name
+ Provide a tag name for the emails associated with the saved, on-going search if you want it to be different than the search
+name.
+ This option is only available if you select the On-going checkbox.
+Legal
+hold
+Select to place all email in the Saved Search on legal hold or clear to take all email in the Saved Search off legal hold.
+Emails on legal hold cannot be deleted from the Archive.
+ This option is only available if you select the On-going checkbox.
+4. Select an option for updating the search.
+Review the following table for more information:
+Save as New I Select to create a new saved search with the new criteria.
+  You must specify a new name when saving an existing search as a new search. 
+Update Select to update the existing saved search with the new criteria.
+[Back to Top]
+About Matter Management
+Collaborative Discovery (accessed from the E-Discovery tab) includes all the Matter Management features in Discovery Archive that allow multiple
+reviewers to interact and collaborate on litigation Matters during the e-discovery process. Once a Discovery Archive administrator creates a new
+Matter, the administrator or designated reviewers can use the Basic and Advanced Search features to find emails relevant to the Matter. These
+searches can then be saved and assigned to various reviewers to distribute the workload and expedite the e-discovery process. During the review
+process, reviewers can place emails on legal hold, apply review statuses or labels, tag emails, and add notes to emails that can be viewed by
+other reviewers working on the Matter. Additionally, Collaborative Discovery includes various reporting features that allow reviewers to view audit
+trails for individual emails or the history of an entire Matter.
+Please refer to the Collaborative Discovery Guide for more information about using these new features of Discovery Archive.
+ The Discovery Archive user interface has been updated. You can now access all the Matter Management features from the new E-Discovery
+tab.
+'Be My Mailbox
+ [E3 Managed Accounts
+CELDMatterManagement
+83 03 Tags & Holds
+133 I Batch Processes
+(Archive
+E tA Administration
+@ IC Matters
+Investigations
+f E- Dismvery
+N,p
+431 E-Discovery
+p g.7 Archive
+[Back to Top]
+Forward Emails
+You can use Discovery Archive's forward feature to share emails with other reviewers or outside counsel.

@@ -1,0 +1,35 @@
+3. Click 9 .
+4. Enter the information for the alert in the Add Policy Alert window.
+W Save i 1*1 Cancel 
+51 Add Policy Alert
+f Peiky Akert
+* Policy Name: Jype policy Alert Name Here
+* Saved search: Select v
+* Alert Email{s): + Jype E-mail Here
+* Comment: Jype Comment Here
+In Dashboardi m
+*Indicates Required Field,
++Separate multiple email addresses with semicolons.
+Refer to the following table for more information:
+Policy Name Enter a name for the new alert.
+Saved Search
+Click  and select a Saved Search.
+[XCIEmail(s)-Enteryouremailaddress.
+Comment  Enter comments relating to the alert.
+ In Dashboard  Select the checkbox if you want the alert to appear in the Administration dashboard.
+[Back to Top]
+Attachment Types Indexed by Discovery Archive
+Discovery Archive indexes contents from the following attachment types:
+0 xls (Microsoft Excel spreadsheet, 2000 - 2003)
+0 xlsx (Microsoft Excel spreadsheet, 2007 - 2010)
+• doc (Microsoft Word document, 2000 - 2003)
+0 docx (Microsoft Word document, 2007 - 2010)
+• pdf (Adobe Acrobat files)
+0 ppt (Microsoft Powerpoint presentation, 2000 - 2003)
+• pptx (Microsoft Powerpoint presentation, 2007 - 2010)
+0 b<t (Text files including CSV, EML and XML files)
+• htm (HTML files)
+0 html (HTML files)
+0 pps (Microsoft Powerpoint slides)
+• zip (ZIP archives)
+ Discovery Archive can only index the specified attachments if they are not password-protected or encrypted.

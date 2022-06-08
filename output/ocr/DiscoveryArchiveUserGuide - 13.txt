@@ -1,0 +1,43 @@
+docx Microsoft Word document 2007-2010
+.pdf Adobe Acrobat files
+.ppt Microsoft PowerPoint presentation 2000-2003
+.pptx Microsoft PowerPoint presentation 2007-2010
+txt Text files
+.htm HTML files
+.html HTML files
+Pps Microsoft PowerPoint slides
+.zip ZIP archives
+Q Discovery Archive does not index attachments that are password protected or encrypted.
+[Back to Top]
+Search Tips
+0 Enter an upper case OR between two search terms to find emails with either search term - enter sick OR vacation to find emails that
+contain the words sick or vacation.
+0 Use quotation marks to find an exact phrase - enter "doudcomputing"to find emails with this exact phrase.
+• Enter an asterisk at the end of search terms to find similar words - enter comp*to find emails with the words computer, computing, or
+company.
+0 Enter a question mark in the middle of search terms to find similar words - enter te?tto find emails with the words test or text.
+• Enter an uppercase NOTbetween search terms to exclude specific words - enter compliance NOT laws to find emails with the word
+compliance that do not include the word /aws. You cannot begin a search term with NOTbecause Discovery Archive does not return
+negative searches.
+0 Enter two search terms in quotation marks followed by a tilde and a numerical value to perform a proximity search - enter "sick
+approved"-5 to find emails with the words sick and approved within five words of each other. An example result for this search would be
+Your requested sick day from October 31 is approved.
+• Enter full email addresses to narrow search results - enter sa//ybrown@acme.com in the From field of the Advanced Search filters to
+find emails sent by Sally Brown.
+• Use quotation marks to find full names - enter "Sally Brown" in the To field of the Advanced Search filters to find emails sent to Sally
+Brown.
+[Back to Top]
+Create Saved Search
+Discovery Archive users can create Saved Searches that retain the search criteria and results for future review. All users can created Saved
+Searches of emails in the My Mailbox node while only administrators and reviewers with the appropriate permissions can created Saved
+Searches in the Managed Accounts node.
+8 & My Mailbox
+$ Mailbox
+-IEEEarches
+8EZI Managed Accounts
+ Accounts
+\ Investigat-Dns
+CESavedSearches
+E ti: Tags & Holds
+ EM Bath Processes
+To create a Saved Search

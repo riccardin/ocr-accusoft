@@ -1,0 +1,31 @@
+6. Select the Discovery Administrator checkbox in the Group Privileges section.
+ Save  1*1 Cancel 
+r-
+Wa
+Role Change - bill.williams@enron.com
+Role: Administrator v
+ Privilege: 41 Monitor All Accountn
+1J Group Privileges
+El & Built-in Roles
+©1' E Account Manager
+l t'* I) Role Manager
+1 P m Policy Manager
+I  0'  Retenbon Manager
+/ M Continuity Manager
+View All Accounts User can only view the user account
+Archive Ove,view: User can view Archive Overview
+Reset Password: User en reset password
+View Provisioning Options: User can view Provisioning Options
+S/ E1 System Administrator
+7. Click Save.
+[Back to Top]
+Assign the Reviewer Role
+To assign a user the Reviewer role
+1. Select the Administration tab. The Archive Administration console opens in a new browser window.
+07 Investigations
+' 4D E-Discovery
+ Alerts
+ Dashboard
+0 Help
+ Only System Administrators or Role Managers have access to the Archive Administration console.
+2. Select Assign Accounts from the Role Management node.

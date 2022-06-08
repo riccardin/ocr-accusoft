@@ -1,0 +1,31 @@
+r 07 Investigations
+4 7 Administration
+ Help
+ Account users can use the Administration tab to change their own password and personal time zone.
+Discovery Archive users start with the general Account role. These users can access Discovery Archive to view their own historical emails only via
+the Investigations tab.
+ Personal Archive is the preferred access method for users to view historical emails, even if users can access Discovery Archive. Personal
+Archive allows users to tag and restore archived emails into their own inbox.
+[Back to Top]
+Assign the Administrator Role
+To assign a user the Administrator role
+1. Select the Administration tab. The Archive Administration console opens in a new browser window.
+g,7 Investigations
+' <I> E-Discovery
+' f- Administration
+C
+ Alerts
+ Dashboard
+8 Help
+Q Only System Administrators or Role Managers have access to the Archive Administration console.
+2. Select Assign Accounts from the Role Management node.
+Archive Administration «
+E k U Archive Overview
+  Accounti
+El··0-
+i - Role Management
+i
+4/ Administration Roles
+3. Select a user from the list.
+4. Click LI-1 in the Role field and select Administrator.
+5. Select the Monitor All Accounts checkbox to allow the user to monitor all user accounts.

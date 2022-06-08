@@ -1,0 +1,36 @@
+To export an email
+1. Browse the archive of accounts assigned to you or conduct a search.
+2. Select the emails you want to export.
+I 8- I
+3. Click
+4. Select Export selected emails or choose one of the other options.
+ 2- ® Restore
+Export current page
+CJ@ Export selected emails
+5. Enter the required information in the Export Options window.
+Export Options X
+You have selected 1 Items (0.11 MB) fo, dgerload. The s,ze calculated is estimated and
+actual size on asc mey va,y.
+Please $elect additional expo,t options
+Message FO,mak Ell
+Include Jouning Envelope E-]
+Export Name L=
+Expoft Passwo,d I
+Confirm Password
+=14
+¥ou* download -11 be available a, a iingle file segment. LEJUITICE]
+Review the following table for more information:
+Message Click  and select one of the following file formats for the export file.
+Format
+• EML
+0 NSF
+• PST
+0 EML with EDRM
+• MSG with EDRM
+0 PST with EDRM
+ch The Clearwell and FTI-Ringtail export options should not be used when exporting emails from the
+Investigations tab. These export options are used for the discovery process and should only be available when
+exporting emails from the E-Discovery tab.
+Include Select this option to include journaling envelopes that contain detailed information about email recipients such as
+Journaling distribution lists.
+Envelope

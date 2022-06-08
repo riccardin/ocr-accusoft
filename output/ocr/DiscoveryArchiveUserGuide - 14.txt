@@ -1,0 +1,31 @@
+1. Perform a Basic Search or an Advanced Search.
+2. Click Save Search.
+IfiUSeard
+Enter Saved Search Name:
+ On-going Tag Name: -
+C Legal Hold
+X
+[*1 New Mail £1 Reply £@ Reply All 4 Forward
+3. Complete the information in the Save Search window.
+Save Search
+Review the following table for more information:
+Enter 1 Enter a name for the saved search.
+Saved I A
+¥ By default, Discovery Archive automatically populates the Tag Name field with the name entered when you select the
+, Search I On-going checkbox.
+ Name 
+On-going  Select to make the saved search an On-going Search.
+ New emails that meet the specified search criteria continue to be added to on-going searches after they are created. If
+you do not select the On-going checkbox, Discovery Archive saves the search as a Standard Search and will not update
+the search automatically to include new emails that meet the specified search criteria.
+Tag
+Name
+ Provide a tag name for the emails associated with the saved, on-going search if you want it to be different than the search
+name.
+ This option is only available if you select the On-going checkbox.
+Legal Select to place all email in the Saved Search on legal hold. Emails on legal hold cannot be deleted from the Archive.
+hold
+ This option is only available if you select the On-going checkbox.
+4. Click OK.
+O Discovery Archive places searches in the Standard Searches node if you did not select the On-going checkbox when creating the
+search.

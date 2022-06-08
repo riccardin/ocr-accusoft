@@ -1,0 +1,28 @@
+From the Accounts page, you can search for users assigned to you.
+To search for users using basic search
+1. Expand the Managed Accounts node and select Accounts.
+@ C My Mailbox
+81331 Managed Accounts
+-Saved-Earches
+E 09 Tags & Holds
+  Batch Processes
+Elnvestigations
+2. Enter the user's display name or email address in the search field and click l
+€*zounts
+P Search
+To search for users using advanced search
+1=l
+1. Click Lito display the Advanced Search menu.
+I Q'£=unts/
+1 P Sea rch
+2. Enter your search criteria. You can use any combination of the search criteria fields.
+P
+Email
+Address:
+Role: All V
+last Name:
+Fi rst Na me:
+Refer to the following table for more information:
+Search Criteria Description
+Email Address Enter the email address or part of an email address for the user.
+0 -1 ,«1 «
