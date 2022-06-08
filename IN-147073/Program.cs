@@ -127,31 +127,23 @@ namespace IN_147073
                     smrtZoneOCR.OCRDataPath = oCRDataPath;
                     smrtZoneOCR.Reader.CharacterSet = CharacterSet.AllCharacters;
                     smrtZoneOCR.Reader.CharacterSet.Language = Language.English;
-
+                    smrtZoneOCR.Reader.SetRegularExpression(creditCardRegEx);
+                    smrtZoneOCR.Reader.SetRegularExpression(uSPhoneNumerRegEx);
+                    smrtZoneOCR.Reader.SetRegularExpression(ccRegEx);
+                    
                     var pdfdoc = pdf.Documents.Add("fileName");
                     RenderOptions renderOptions = new RenderOptions();
                     renderOptions.ResolutionX = 300;
                     renderOptions.ResolutionY = 300;
                   
                     var doc = pdf.Documents[pdfdoc];
-
-
-
                     for (int pageNumber = 0; pageNumber < pdf.Documents[pdfdoc].PageCount; pageNumber++)
                     {
                         using (Bitmap bitmap = pdf.Documents[pdfdoc].RenderPageToBitmap(pageNumber, renderOptions))
                         {
 
-                            smrtZoneOCR.Reader.CharacterSet = CharacterSet.AllCharacters;
-                            smrtZoneOCR.Reader.CharacterSet.Language = Language.English;
                             smrtZoneOCR.Reader.Area = new Rectangle(0, 0, bitmap.Width, bitmap.Height);
-                            smrtZoneOCR.Reader.SetRegularExpression(creditCardRegEx);
-                            smrtZoneOCR.Reader.SetRegularExpression(uSPhoneNumerRegEx);
-                            smrtZoneOCR.Reader.SetRegularExpression(ccRegEx);
-
                             var result = smrtZoneOCR.Reader.AnalyzeField(bitmap);
-
-
 
                         }
                     }
