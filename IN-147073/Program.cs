@@ -125,17 +125,17 @@ namespace IN_147073
                     smrtZoneOCR.Licensing.SetSolutionKey(000000, 000001, 0000002, 0000003);
                     smrtZoneOCR.Licensing.SetOEMLicenseKey("");
                     smrtZoneOCR.OCRDataPath = oCRDataPath;
-
+                    smrtZoneOCR.Reader.CharacterSet = CharacterSet.AllCharacters;
+                    smrtZoneOCR.Reader.CharacterSet.Language = Language.English;
 
                     var pdfdoc = pdf.Documents.Add("fileName");
                     RenderOptions renderOptions = new RenderOptions();
-                    TextFinderOptions finderOptions = new TextFinderOptions();
-                    ExtractImageOptions extractOptions = new ExtractImageOptions();
+                    renderOptions.ResolutionX = 300;
+                    renderOptions.ResolutionY = 300;
+                  
                     var doc = pdf.Documents[pdfdoc];
 
 
-                    renderOptions.ResolutionX = 300;
-                    renderOptions.ResolutionY = 300;
 
                     for (int pageNumber = 0; pageNumber < pdf.Documents[pdfdoc].PageCount; pageNumber++)
                     {
